@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var toast = new bootstrap.Toast(toastEL, {
         autohide: false
     });
-    toast.show();
+    toast.hide();
 
     document.addEventListener('keydown', function(e) {
         if (event.key === 'Escape') {
